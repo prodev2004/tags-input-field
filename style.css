@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 20);
+}
+
+/* SUBSCRIBE ==> https://www.youtube.com/albdev */
+/* SUBSCRIBE ==> https://www.youtube.com/albdev */
+
+.text-area {
+    border: 2px solid rgb(122, 122, 122);
+    width: 500px;
+    padding: 3rem 1rem;
+    border-radius: .5rem;
+    position: relative;
+}
+span:not(.tags) {
+    background-color: rgba(255, 255, 255, .1);
+    padding: .3rem 1rem;
+    border-radius: 50vw;
+    margin: .3rem;
+    font-size: 1rem;
+    display: inline-block;
+    cursor: url(cursor.png), auto;
+}
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+    padding: .3rem 0;
+    margin-top: 1rem;
+}
+
+.focused {
+    border-color: rgb(0, 0, 150);
+    box-shadow: 0 0 .3rem rgb(0, 0, 150);
+}
+.label {
+    position: absolute;
+    background-color: rgb(0, 0, 20);
+    padding: 0 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 200ms ease-in-out top;
+}
+
+.focused .label {
+    top: 0;
+}
+
+/* SUBSCRIBE ==> https://www.youtube.com/albdev */
+/* SUBSCRIBE ==> https://www.youtube.com/albdev */
